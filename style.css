@@ -18,3 +18,8 @@
 .configuration-details{margin-top:28px;border:1px solid var(--line);border-radius:5px;padding:20px 24px}.configuration-details summary{cursor:pointer;font-weight:600}.configuration-details p,.configuration-details li{color:var(--muted);font-size:14px}.configuration-details code{overflow-wrap:anywhere}
 /* Confirmed air quality monitor parts */
 .parts-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.part-card{min-width:0;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:var(--surface)}.part-image{display:block;background:#fff;padding:22px;aspect-ratio:16/10}.part-image img{display:block;width:100%;height:100%;object-fit:contain}.part-copy{padding:25px}.part-copy .eyebrow{margin:0 0 12px}.part-copy h3{font-size:23px;line-height:1.25;font-weight:500;letter-spacing:-.5px;margin:0 0 12px}.part-copy>p:not(.eyebrow){color:var(--muted);font-size:14px;margin:0}.part-copy dl{display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px 14px;font-size:13px;border-top:1px solid var(--line);padding-top:18px;margin:20px 0 0}.part-copy dt{color:var(--muted)}.part-copy dd{margin:0;overflow-wrap:anywhere}@media(max-width:760px){.parts-grid{grid-template-columns:1fr}.part-copy{padding:22px}.part-image{padding:18px}}
+
+/* Preserve complete shade photos, including portrait shots. */
+.shade-gallery{align-items:start}.shade-gallery img{aspect-ratio:4000/1848;height:auto;max-height:620px}.shade-gallery img[width="1848"]{aspect-ratio:1848/4000}.shade-gallery figure:only-child{grid-column:1/-1}
+
+.floorplan-main{margin-bottom:32px}.floorplan-main img{height:auto}
